@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>ITP Popup</title>
+	<style>
+		img{
+			width:150px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		#calculate{
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:10px;
+		}
+		#pageScript{
+			display:none;
+		}
+		#result{
+			size:14px;
+		}
+		.red{
+			color:red;
+		}
+		.green{
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<img src="images/viterbi.jpg">
+	<form id="calcHours">
+	<input type="text" id="courseNum" placeholder="Course Number">
+	<input type="text" id="sectionNum" placeholder="Section Number">
+	<input type="submit" id="calculate">
+	</form>
+	<p id="result"></p>
+	<div id="pageScript">Injecting script...</div>
+	<script src="popup.js">
+	</script>
+</body>
+</html>
